@@ -1,0 +1,30 @@
+
+/* Increasing and decreasing counter */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(151, 177, 184);
+}
+
+h1 {
+  padding: 1rem;
+}
+
+#value {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 5rem;
+}
+
+.reset {
+  margin: 0 2rem;
+}
+
+button{
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 15px;
+  background: rgb(117, 109, 63);
+  cursor: pointer;
+}

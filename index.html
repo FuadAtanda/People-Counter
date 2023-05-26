@@ -5,21 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style2.css" />
     <title>People Counter</title>
   </head>
   <body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    <!-- Create a INCREMENT button with the id 'incremenet-btn' -->
-    <button id="increment-btn">INCREMENT</button>
+    <section class="count">
+      <h1>People Entered:</h1>
+      <h2 id="count-el">0</h2>
+      <!-- Create a INCREMENT button with the id 'incremenet-btn' -->
+      <button id="increment-btn">INCREMENT</button>
 
-    <!-- Create a INCREMENT button with the id 'incremenet-btn' -->
-    <button id="save-btn">SAVE</button>
-    <hr />
+      <!-- Create a INCREMENT button with the id 'incremenet-btn' -->
+      <button id="save-btn">SAVE</button>
+      <br />
 
-    <p id="save-el">Previous entries :</p>
-    <br />
+      <p id="save-el">Previous Entries :</p>
+      <hr />
+    </section>
+
+    <!-- Increasing and Decreasing Counter -->
+    <section>
+      <div class="container">
+        <h1>Counter</h1>
+        <span id="value">0</span>
+        <div class="button-container">
+          <button class="btn decrease">DECREASE</button>
+          <button class="btn reset">RESET</button>
+          <button class="btn increase">INCREASE</button>
+        </div>
+      </div>
+    </section>
 
     <script src="app.js"></script>
+    <script src="app2.js"></script>
   </body>
 </html>
